@@ -37,6 +37,8 @@ WebUI.verifyElementPresent(findTestObject('Menu Toggle/lbl_CURAHealthcare'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Menu Toggle/btn_Login'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Menu Toggle/btn_Home'), 0)
+
 WebUI.click(findTestObject('Menu Toggle/btn_Login'))
 
 WebUI.waitForElementPresent(findTestObject('Login Form/form_Login'), 2)
